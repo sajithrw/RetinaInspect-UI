@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-export default function BarChart({ elementName, chartData }) {
+export default function BarChart({ elementName, chartData } : { elementName: string,  chartData: number[] }) {
     const chartRef = useRef(null);
 
     useEffect(() => {
