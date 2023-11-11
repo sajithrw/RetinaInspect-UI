@@ -1,7 +1,7 @@
 import * as tf from '@tensorflow/tfjs';
 import Image  from 'next/image';
 import { useEffect, useState } from 'react';
-import { loadModel } from '../utilities/load-model';
+import { loadModel } from '../../other/utilities/load-model';
 import BarChart from '../components/bar-chart';
 
 export default function Predict({ startPrediction }) {

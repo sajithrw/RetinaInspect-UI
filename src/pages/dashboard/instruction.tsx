@@ -1,6 +1,6 @@
 import Step from "../components/step";
 
-import { INSTRUCTION_STEPS } from "../constants/constants";
+import { INSTRUCTION_STEPS } from "../../other/constants/constants";
 
 export default function Instruction() {
     return (
